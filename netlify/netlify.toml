@@ -1,1 +1,13 @@
+[functions]
+directory = "netlify/functions"
+
+[[redirects]]
+from = "/save"
+to = "/.netlify/functions/save"
+status = 200
+
+[[redirects]]
+from = "/scores"
+to = "/.netlify/functions/save"
+status = 200
 
